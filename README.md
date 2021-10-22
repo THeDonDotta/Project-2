@@ -7,7 +7,7 @@ Playlist Maker
 The app allows anyone to make their own playlist of music. Also allows them to view other playlist people have made in the past
 
 ## Wireframes
-
+![image](https://user-images.githubusercontent.com/90045752/138467171-8f86db30-39df-4eb8-99e8-6a7070e03caa.png)
 ##Component Hierarchary 
 
 ## Data sample
