@@ -4,6 +4,7 @@ import './App.css';
 import { useEffect, useState } from 'react'
 import ShowPlaylist from './component/showPlaylist'
 import Post from './component/Post'
+import AboutMe from './component/AboutMe'
 
 
 const API_URL ='https://api.airtable.com/v0/app89uih6eVWpafTK/Table%201?api_key=keyZHnK73JWzkEwP6'
@@ -62,7 +63,14 @@ function App() {
             </Route>
       </body>
         <br/>
+        <Route path="/about">
+          <AboutMe />
+          </Route>
       
+        <footer>
+          <h5>Copyright : 2021 The Don</h5>
+
+        </footer>
 
     </div>
   );
