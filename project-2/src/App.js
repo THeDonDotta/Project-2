@@ -31,14 +31,23 @@ function App() {
 
   return (
     <div>
-      <nav>
+      <nav style={{
+        display: 'flex',
+        justifyContent: 'space-around',
+
+      }}>
         <Link to="/"> Home</Link> 
         
         <Link to="/about"> About</Link>
         <Link to="/playlist">Check out Playlist</Link>
       </nav>
+      <hr/>
       <br/>
-      <body>
+      <body style={{paddingTop: '10px', 
+            justifyContent: 'center',
+            margin: 'auto'
+                    
+                    }}>
         <Route path='/' exact>
         <Post
         formType='post'
