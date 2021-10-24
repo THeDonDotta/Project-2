@@ -42,6 +42,7 @@ function App() {
         <Link to="/playlist">Check out Playlist</Link>
       </nav>
       <hr/>
+      <h1>THE ULTIMATE PLAYLIST</h1>
       
       <br/>
       <p>There will be an image here</p>
