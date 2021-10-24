@@ -35,6 +35,8 @@ const Post = ({ toggleFetch, setToggleFetch })  => {
 return(
 
     <div>
+
+        
         <form onSubmit={handleSubmit}>
         <label htmlFor='artist'> Artist: </label>
                     <input type='text' 
