@@ -43,9 +43,17 @@ function App() {
         
 
       }}>
-        <Link to="/"> Home</Link> 
+        <Link to="/"> <Button variant="contained">
+        Home
+        </Button>
+        </Link> 
         
-        <Link to="/about"> About</Link>
+        <Link to="/about"> 
+        <Button variant="contained">
+        About
+        </Button>
+        </Link>
+        
         <Link to="/playlist">
           <Button variant="contained">Check out Playlist
             </Button>
@@ -83,8 +91,10 @@ function App() {
         
         />
         </Route>
-
+        
         <Route path="/playlist">
+          <div style={{flexDirection: 'column',
+        }}>
 
           {artists.map((artist) => (
 
@@ -95,7 +105,7 @@ function App() {
             />
 
           ))}
-        
+        </div>
             </Route>
       </body>
         <br/>
