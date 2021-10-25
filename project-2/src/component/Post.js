@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { Route, Link } from 'react-router-dom'
+import Button from '@mui/material/Button';
 
 const API_URL ='https://api.airtable.com/v0/app89uih6eVWpafTK/Table%201?api_key=keyZHnK73JWzkEwP6'
 
@@ -54,8 +55,9 @@ return(
                         value={song} 
                         onChange={(ev) => setSong(ev.target.value)}/>
                 <br/>
-
-            <input type='submit'/>
+            <Button variant='contained' type='submit'>
+            Submit
+            </Button>
 
         </form>
     </div>
