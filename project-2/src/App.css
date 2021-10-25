@@ -69,3 +69,15 @@ button{
 h1{
   color:azure
 }
+.spotlight{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+.texts{
+  overflow: auto;
+}
+/* .tash{
+  float: right;
+} */

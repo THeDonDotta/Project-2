@@ -21,6 +21,7 @@ return(
         <p>Song: {artist.fields.song}</p>
         </Card>
         <Rating name="size-medium" defaultValue={4} />
+        
         <br/>
     </div>
 )
