@@ -115,7 +115,7 @@ function App() {
           <Route path="/" exact>
           <h1>Current Music Releases</h1>
 
-          <p>Children creepy deranged, ashes a killer a, monster mental hospital. Needles at bowels alarming. Blood ashes tearing in drowning spooky at fanatic with murderer. Worms with guts ect. Disembowel stab, chains dungeon torment fiendish, gruesome psychopath monster captive, a mutilation possession obsession at fanatic. Captive Agony deteriorated, fatal or chillin.
+          <p style={{color: 'white'}}>Children creepy deranged, ashes a killer a, monster mental hospital. Needles at bowels alarming. Blood ashes tearing in drowning spooky at fanatic with murderer. Worms with guts ect. Disembowel stab, chains dungeon torment fiendish, gruesome psychopath monster captive, a mutilation possession obsession at fanatic. Captive Agony deteriorated, fatal or chillin.
 
 Is, grotesque Halloween exorcism. Willow trees undead wind, unknown ripped needles. Stalking wind, drenched chilling sick mental, with mutilation zombies blood.
 
@@ -127,6 +127,8 @@ Moon. Worms with guts ect. Virus witch demonic dripping, at werewolf psycho slic
           <h5>Copyright : 2021 The Don</h5>
           
           <a href="https://github.com/THeDonDotta"><img src="https://i.imgur.com/PdSWEsd.png" title="source: imgur.com" className="github"/></a>
+
+          <a href="https://imgur.com/2qVSzql"><img src="https://i.imgur.com/2qVSzql.png" title="source: imgur.com" className="logo"/></a>
       
         </footer>
 
