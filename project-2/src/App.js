@@ -34,14 +34,18 @@ function App() {
       <nav style={{
         display: 'flex',
         justifyContent: 'space-around',
-        backgroundColor: '#EAE2B7',
+        backgroundColor: '#48BFE3',
+        marginTop: '-30px',
         
 
       }}>
         <Link to="/"> Home</Link> 
         
         <Link to="/about"> About</Link>
-        <Link to="/playlist">Check out Playlist</Link>
+        <Link to="/playlist">
+          <button>Check out Playlist
+            </button>
+          </Link>
       </nav>
       <hr/>
       <header className="header">

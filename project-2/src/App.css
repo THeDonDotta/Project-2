@@ -4,7 +4,8 @@
   margin : auto;
   padding-left : 20px;
   justify-content: space-around;
-  
+  position: fixed;
+  top : -10px;
 
 }
 
@@ -12,7 +13,7 @@ body {
   padding-top: 30px;
   display: flex;
   justify-content: center;
-  background-color: #003049
+  background-color: #5E60CE
   
 }
 .header{
@@ -46,4 +47,12 @@ body {
 .addSong{
   display: flex;
   justify-content: center;
+}
+button{
+  background-color: #80FFDB;
+  border-radius: 12px;
+  font-size: 20px;
+  border: none;
+  color: #7400B8;
+  font-family: Arial;
 }
