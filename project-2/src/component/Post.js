@@ -38,12 +38,14 @@ return(
     <div>
 
         
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit}
+        >
         <label htmlFor='artist'> Artist: </label>
                     <input type='text' 
                         id='artist' 
                         palceholder='artist'
                         value={artist} 
+                        style={{marginBottom: '10px'}}
                         onChange={(ev) => setArtist(ev.target.value)}/>
                 <br/>
 
@@ -55,7 +57,9 @@ return(
                         value={song} 
                         onChange={(ev) => setSong(ev.target.value)}/>
                 <br/>
-            <Button variant='contained' type='submit'>
+            <Button variant='contained' type='submit'
+                style={{marginTop: '20px',
+                    marginLeft: '45px'}}>
             Submit
             </Button>
 
