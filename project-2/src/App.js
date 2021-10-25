@@ -42,7 +42,9 @@ function App() {
         <Link to="/playlist">Check out Playlist</Link>
       </nav>
       <hr/>
+      <header>
       <h1>THE ULTIMATE PLAYLIST</h1>
+      </header>
       
       <br/>
       <Route path='/' exact>
@@ -95,6 +97,9 @@ Moon. Worms with guts ect. Virus witch demonic dripping, at werewolf psycho slic
 </Route>
 <footer>
           <h5>Copyright : 2021 The Don</h5>
+          
+          <a href="https://github.com/THeDonDotta"><img src="https://i.imgur.com/PdSWEsd.png" title="source: imgur.com" /></a>
+      
         </footer>
 
     </div>
