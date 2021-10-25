@@ -68,7 +68,7 @@ function App() {
       <h1 style={{
         fontWeight:'bold',
         color: '#80FFDB',
-        margin: 'auto'
+        margin: 'auto',
       }}> CREATIVE MINDS </h1>
       <br/>
       <h1 style={{margin: 'auto',
@@ -85,13 +85,13 @@ function App() {
         <a href="https://open.spotify.com/album/00wSTrFxoSzA7eeS1UxHgd"><img src="https://i.imgur.com/C3HkE9i.jpg" title="source: imgur.com" className='kali'/></a>
       </div>
       <div>
-       
+    
       </div>
       </Route>
       <body style={{paddingTop: '10px', 
             justifyContent: 'center',
             margin: 'auto',
-            backgroundSize: 'cover',
+            backgroundSize: 'cover', 
                     }}>
 
         <Route path='/' exact>

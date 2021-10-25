@@ -43,7 +43,7 @@ return(
         paddingLeft: '10px',
         paddingRight: '10px',
         paddingBottom: '10px',
-        fontFamily: 'sans-serif',
+        fontFamily: 'Roboto Mono',
         color: '#6930C3'
 
         }}>
