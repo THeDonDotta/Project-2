@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 import ShowPlaylist from './component/showPlaylist'
 import Post from './component/Post'
 import AboutMe from './component/AboutMe'
+import Button from '@mui/material/Button';
 
 
 const API_URL ='https://api.airtable.com/v0/app89uih6eVWpafTK/Table%201?api_key=keyZHnK73JWzkEwP6'
@@ -30,7 +31,7 @@ function App() {
 
 
   return (
-    <div>
+    <div style={{      backgroundImage: 'url("https://i.imgur.com/WeGCjpb.jpg")'}}>
       <nav style={{
         display: 'flex',
         justifyContent: 'space-around',
@@ -46,13 +47,16 @@ function App() {
         
         <Link to="/about"> About</Link>
         <Link to="/playlist">
-          <button>Check out Playlist
-            </button>
+          <Button variant="contained">Check out Playlist
+            </Button>
           </Link>
       </nav>
       
       <header className="header">
-      <h1>THE ULTIMATE PLAYLIST</h1>
+      <h1 style={{
+        fontWeight:'bold',
+        color: 'white'
+      }}>THE ULTIMATE PLAYLIST</h1>
       </header>
       
       <br/>
@@ -67,8 +71,8 @@ function App() {
       </Route>
       <body style={{paddingTop: '10px', 
             justifyContent: 'center',
-            margin: 'auto'
-                    
+            margin: 'auto',
+            
                     }}>
 
         <Route path='/' exact>
