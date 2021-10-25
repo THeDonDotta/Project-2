@@ -132,7 +132,7 @@ Moon. Worms with guts ect. Virus witch demonic dripping, at werewolf psycho slic
 
 <a href="https://imgur.com/nIJVydA"><img src="https://i.imgur.com/nIJVydA.jpg" title="source: imgur.com" style={{
   height: '300px',
-  width: '400px'
+  width: '450px'
 }} className="tash"/></a>
 
 </div>
