@@ -4,12 +4,15 @@
   margin : auto;
   padding-left : 20px;
   justify-content: space-around;
+  
+
 }
 
 body {
   padding-top: 30px;
   display: flex;
   justify-content: center;
+  background-color: #003049
   
 }
 .header{

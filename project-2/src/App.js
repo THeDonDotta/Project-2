@@ -34,6 +34,8 @@ function App() {
       <nav style={{
         display: 'flex',
         justifyContent: 'space-around',
+        backgroundColor: '#EAE2B7',
+        
 
       }}>
         <Link to="/"> Home</Link> 
