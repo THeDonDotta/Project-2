@@ -68,11 +68,13 @@ function App() {
       <header className="header">
       <h1 style={{
         fontWeight:'bold',
-        color: 'white',
+        color: '#6930C3',
         margin: 'auto'
       }}> CREATIVE MINDS </h1>
       <br/>
-      <h1 style={{margin: 'auto'}}>The playlist for music lovers</h1>
+      <h1 style={{margin: 'auto',
+            color: '#6930C3'
+            }}>The playlist for music lovers</h1>
       
       </header>
       
