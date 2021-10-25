@@ -7,7 +7,7 @@ import Post from './component/Post'
 import AboutMe from './component/AboutMe'
 import Button from '@mui/material/Button';
 import HomeSharpIcon from '@mui/icons-material/HomeSharp';
-
+import Box from '@mui/material/Box';
 
 
 const API_URL ='https://api.airtable.com/v0/app89uih6eVWpafTK/Table%201?api_key=keyZHnK73JWzkEwP6'
@@ -64,19 +64,19 @@ function App() {
             </Button>
           </Link>
       </nav>
-      
       <header className="header">
       <h1 style={{
         fontWeight:'bold',
-        color: '#6930C3',
+        color: '#80FFDB',
         margin: 'auto'
       }}> CREATIVE MINDS </h1>
       <br/>
       <h1 style={{margin: 'auto',
-            color: '#6930C3'
+            color: '#80FFDB'
             }}>The playlist for music lovers</h1>
       
       </header>
+      
       
       <br/>
       <Route path='/' exact>
