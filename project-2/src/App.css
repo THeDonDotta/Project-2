@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
 
 .navbar {
   margin : auto;
@@ -6,6 +6,7 @@
   justify-content: space-around;
   position: fixed;
   top : -10px;
+  
 
 }
 
@@ -14,14 +15,15 @@ body {
   display: flex;
   justify-content: center;
   /* background-color: #5E60CE; */
-  
+  font-family: 'Roboto Mono', monospace;
   
 }
 .header{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: center auto
+  margin: center auto;
+  font-family: 'Roboto Mono', monospace;
 }
 
 
@@ -68,7 +70,7 @@ button{
   font-size: 20px;
   border: none;
   color: #7400B8;
-  font-family: Arial;
+  font-family: 'Roboto Mono', monospace;
   
 }
 
