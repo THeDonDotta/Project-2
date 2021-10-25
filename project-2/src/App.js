@@ -36,6 +36,9 @@ function App() {
         justifyContent: 'space-around',
         backgroundColor: '#48BFE3',
         marginTop: '-30px',
+        paddingBottom: '20px',
+        paddingTop: '20px'
+        
         
 
       }}>
@@ -47,7 +50,7 @@ function App() {
             </button>
           </Link>
       </nav>
-      <hr/>
+      
       <header className="header">
       <h1>THE ULTIMATE PLAYLIST</h1>
       </header>
