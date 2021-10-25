@@ -40,8 +40,11 @@ body {
   width: 100px;
 }
 .logo{
-  height: 100px;
-  width: 100px;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 .homePics{
   display: flex;

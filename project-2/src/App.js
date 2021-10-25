@@ -38,7 +38,8 @@ function App() {
         backgroundColor: '#48BFE3',
         marginTop: '-30px',
         paddingBottom: '20px',
-        paddingTop: '20px'
+        paddingTop: '20px',
+        
         
         
 
@@ -80,7 +81,7 @@ function App() {
       <body style={{paddingTop: '10px', 
             justifyContent: 'center',
             margin: 'auto',
-            
+            backgroundSize: 'cover',
                     }}>
 
         <Route path='/' exact>
@@ -94,6 +95,7 @@ function App() {
         
         <Route path="/playlist">
           <div style={{flexDirection: 'column',
+          
         }}>
 
           {artists.map((artist) => (
@@ -128,7 +130,7 @@ Moon. Worms with guts ect. Virus witch demonic dripping, at werewolf psycho slic
           
           <a href="https://github.com/THeDonDotta"><img src="https://i.imgur.com/PdSWEsd.png" title="source: imgur.com" className="github"/></a>
 
-          <a href="https://imgur.com/2qVSzql"><img src="https://i.imgur.com/2qVSzql.png" title="source: imgur.com" className="logo"/></a>
+
       
         </footer>
 
