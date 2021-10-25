@@ -20,6 +20,8 @@ body {
 .header{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  margin: center auto
 }
 
 
@@ -82,6 +84,6 @@ h1{
   padding-top: 5px;
   margin-right: 5px;;
 }
-/* .tash{
-  float: right;
-} */
+.tash{
+  border-radius: 12px;
+}

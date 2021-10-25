@@ -68,8 +68,12 @@ function App() {
       <header className="header">
       <h1 style={{
         fontWeight:'bold',
-        color: 'white'
-      }}>THE ULTIMATE PLAYLIST</h1>
+        color: 'white',
+        margin: 'auto'
+      }}> CREATIVE MINDS </h1>
+      <br/>
+      <h1 style={{margin: 'auto'}}>The playlist for music lovers</h1>
+      
       </header>
       
       <br/>
@@ -139,7 +143,7 @@ Moon. Worms with guts ect. Virus witch demonic dripping, at werewolf psycho slic
 </Route>
 
 <footer>
-          <h5>Copyright : 2021 The Don</h5>
+          <h5 style={{color: 'white'}}>Copyright : 2021 The Don</h5>
           
           <a href="https://github.com/THeDonDotta"><img src="https://i.imgur.com/PdSWEsd.png" title="source: imgur.com" className="github"/></a>
 
