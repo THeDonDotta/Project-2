@@ -6,6 +6,8 @@ import ShowPlaylist from './component/showPlaylist'
 import Post from './component/Post'
 import AboutMe from './component/AboutMe'
 import Button from '@mui/material/Button';
+import HomeSharpIcon from '@mui/icons-material/HomeSharp';
+
 
 
 const API_URL ='https://api.airtable.com/v0/app89uih6eVWpafTK/Table%201?api_key=keyZHnK73JWzkEwP6'
@@ -44,9 +46,11 @@ function App() {
         
 
       }}>
-        <Link to="/"> <Button variant="contained">
+        <Link to="/"> 
+        {/* <Button variant="contained">
         Home
-        </Button>
+        </Button> */}
+        <HomeSharpIcon/>
         </Link> 
         
         <Link to="/about"> 
