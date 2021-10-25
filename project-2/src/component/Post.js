@@ -2,6 +2,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { Route, Link } from 'react-router-dom'
 import Button from '@mui/material/Button';
+import Card from '@mui/material/Card'
 
 const API_URL ='https://api.airtable.com/v0/app89uih6eVWpafTK/Table%201?api_key=keyZHnK73JWzkEwP6'
 
@@ -37,7 +38,16 @@ return(
 
     <div>
 
-        
+    <Card variant="outlined" style={{
+        backgroundColor: '#56CFE1',
+        paddingLeft: '10px',
+        paddingRight: '10px',
+        paddingBottom: '10px',
+        fontFamily: 'sans-serif',
+        color: '#6930C3'
+
+        }}>
+    <h2 className="addSong">Add a song to the playlist</h2>
         <form onSubmit={handleSubmit}
         >
         <label htmlFor='artist'> Artist: </label>
@@ -64,6 +74,7 @@ return(
             </Button>
 
         </form>
+    </Card>
     </div>
 )
 

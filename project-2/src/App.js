@@ -83,7 +83,7 @@ function App() {
         <a href="https://open.spotify.com/album/00wSTrFxoSzA7eeS1UxHgd"><img src="https://i.imgur.com/C3HkE9i.jpg" title="source: imgur.com" className='kali'/></a>
       </div>
       <div>
-        <h2 className="addSong">Add a song to the playlist</h2>
+       
       </div>
       </Route>
       <body style={{paddingTop: '10px', 
@@ -134,7 +134,7 @@ Or shaking with willow trees shriek. Dark mutilation rotten, Blood hair raising 
 
 Moon. Worms with guts ect. Virus witch demonic dripping, at werewolf psycho slice flames. Haunt suicide silent, gory as demonic alarming, buried in fallen angel. Worms with guts ect. Drenched scream scared dark. Stalking wind, drenched chilling sick mental, with mutilation zombies blood, or shaking with willow trees shriek. Dark mutilation rotten, Blood hair raising or, blood in eyeball. Stalking wind, drenched chilling sick mental, with mutilation zombies blood, or shakin.</p>
 
-<a href="https://imgur.com/nIJVydA"><img src="https://i.imgur.com/nIJVydA.jpg" title="source: imgur.com" style={{
+<a href="https://open.spotify.com/artist/6zVFRTB0Y1whWyH7ZNmywf"><img src="https://i.imgur.com/nIJVydA.jpg" title="source: imgur.com" style={{
   height: '300px',
   width: '450px'
 }} className="tash"/></a>
