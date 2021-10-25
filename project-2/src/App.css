@@ -8,7 +8,13 @@
 
 body {
   padding-top: 30px;
+  display: flex;
+  justify-content: center;
   
+}
+.header{
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -16,5 +22,25 @@ body {
 .App-link {
   color: #61dafb;
 }
-
-
+.lana{
+  height: 300px;
+  width: 300px;
+}
+.kali{
+  height: 300px;
+  width: 300px;
+}
+.github{
+  height: 100px;
+  width: 100px;
+}
+.homePics{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+.addSong{
+  display: flex;
+  justify-content: center;
+}

@@ -42,14 +42,19 @@ function App() {
         <Link to="/playlist">Check out Playlist</Link>
       </nav>
       <hr/>
-      <header>
+      <header className="header">
       <h1>THE ULTIMATE PLAYLIST</h1>
       </header>
       
       <br/>
       <Route path='/' exact>
-      <p>There will be an image here</p>
-      <p>There will be an image here</p>
+        <div className="homePics">
+        <a href="https://music.amazon.com/albums/B09584T2R2?ref=dmm_acq_mrn_d_ds_sn_z_-c_c_539036640476_g_120309761644"><img src="https://i.imgur.com/PM66k0E.jpg" title="source: imgur.com" className="lana"/></a>
+        <a href="https://open.spotify.com/album/00wSTrFxoSzA7eeS1UxHgd"><img src="https://i.imgur.com/C3HkE9i.jpg" title="source: imgur.com" className='kali'/></a>
+      </div>
+      <div>
+        <h2 className="addSong">Add a song to the playlist</h2>
+      </div>
       </Route>
       <body style={{paddingTop: '10px', 
             justifyContent: 'center',
@@ -98,7 +103,7 @@ Moon. Worms with guts ect. Virus witch demonic dripping, at werewolf psycho slic
 <footer>
           <h5>Copyright : 2021 The Don</h5>
           
-          <a href="https://github.com/THeDonDotta"><img src="https://i.imgur.com/PdSWEsd.png" title="source: imgur.com" /></a>
+          <a href="https://github.com/THeDonDotta"><img src="https://i.imgur.com/PdSWEsd.png" title="source: imgur.com" className="github"/></a>
       
         </footer>
 
