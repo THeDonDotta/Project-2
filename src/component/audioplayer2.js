@@ -1,5 +1,7 @@
 import React, { Component } from "react"
 import MacMill from './The-End-Is-Near.mp3'
+import ButtonGroup from '@mui/material/ButtonGroup';
+import Button from '@mui/material/Button';
 
 
 class AbSoul extends Component {
@@ -16,12 +18,11 @@ class AbSoul extends Component {
     render() {
     return (
         <div>
-        <button onClick={this.playAudio}>
-            <span>Hip Hop</span>
-        </button>
-        <button onClick={this.pauseAudio}>
-            <span>pause</span>
-        </button>
+        <ButtonGroup variant="contained" aria-label="outlined primary button group">
+            <Button onClick={this.playAudio}>Rap</Button>
+            <Button onClick={this.pauseAudio}>Pause</Button>
+            
+        </ButtonGroup>
         <audio className="audio-element">
             <source src={MacMill}></source>
         </audio>

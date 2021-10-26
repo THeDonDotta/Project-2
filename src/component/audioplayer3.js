@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Chris from './Tennessee-Whiskey.mp3'
-
+import ButtonGroup from '@mui/material/ButtonGroup';
+import Button from '@mui/material/Button';
 
 class Staple extends Component {
     playAudio() {
@@ -16,12 +17,11 @@ class Staple extends Component {
     render() {
     return (
         <div>
-        <button onClick={this.playAudio}>
-            <span>Country</span>
-        </button>
-        <button onClick={this.pauseAudio}>
-            <span>pause</span>
-        </button>
+        <ButtonGroup variant="contained" aria-label="outlined primary button group">
+            <Button onClick={this.playAudio}>Country</Button>
+            <Button onClick={this.pauseAudio}>Pause</Button>
+            
+        </ButtonGroup>
         <audio className="audio-element">
             <source src={Chris}></source>
         </audio>

@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Song from './fly-away.mp3'
-
+import ButtonGroup from '@mui/material/ButtonGroup';
+import Button from '@mui/material/Button';
 
 class AudioFile extends Component {
     playAudio() {
@@ -15,14 +16,13 @@ class AudioFile extends Component {
 
     render() {
     return (
-        <div>
-
-        <button onClick={this.playAudio}>
-            <span>Lofi Vibe</span>
-        </button>
-        <button onClick={this.pauseAudio}>
-            <span>pause</span>
-        </button>
+        <div> 
+            
+        <ButtonGroup variant="contained" aria-label="outlined primary button group">
+            <Button onClick={this.playAudio}>Lofi Vibe</Button>
+            <Button onClick={this.pauseAudio}>Pause</Button>
+            
+        </ButtonGroup> 
         <audio className="audio-element">
             <source src={Song}></source>
         </audio>
