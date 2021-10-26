@@ -70,7 +70,7 @@ function App() {
       <h1 style={{
         fontWeight:'bold',
         color: '#80FFDB',
-        margin: 'auto',
+        margin: 'auto' ,
       }}> CREATIVE MINDS </h1>
       <br/>
       <h1 style={{margin: 'auto',
@@ -90,7 +90,7 @@ function App() {
       </Route>
       <body style={{paddingTop: '10px', 
             justifyContent: 'center',
-            margin: 'auto',
+            // margin: 'auto',
             backgroundSize: 'cover', 
                     }}>
 
