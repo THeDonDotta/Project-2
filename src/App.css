@@ -14,7 +14,7 @@ body {
   padding-top: 30px;
   display: flex;
   justify-content: center;
-  /* background-color: #5E60CE; */
+  background-size: cover;
   font-family: 'Roboto Mono', monospace;
   
 }
@@ -92,4 +92,10 @@ h1{
 }
 .tash{
   border-radius: 12px;
+}
+
+.playMusic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

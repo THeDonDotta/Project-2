@@ -16,10 +16,7 @@ class AudioFile extends Component {
     render() {
     return (
         <div>
-        <h2 style={{
-            color: 'white'
-            }}>
-            Play some music to catch a vibe!</h2>
+
         <button onClick={this.playAudio}>
             <span>Lofi Vibe</span>
         </button>

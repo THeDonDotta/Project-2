@@ -35,7 +35,7 @@ function App() {
 
 
   return (
-    <div style={{      backgroundImage: 'url("https://i.imgur.com/WeGCjpb.jpg")'}} className="full">
+    <div style={{ backgroundColor: '#6c757d'}} className="full">
       <nav style={{
         display: 'flex',
         justifyContent: 'space-around',
@@ -125,7 +125,13 @@ function App() {
           <AboutMe />
           </Route>
           <Route path="/">
-          <div>
+            <div>
+            <h2 style={{
+            color: 'white'
+            }}>
+            Play some music to catch a vibe!</h2>
+            </div>
+          <div className='playMusic'>
             <AudioFile/>
             <AbSoul/>
             <Staple/>
