@@ -17,7 +17,7 @@ class AbSoul extends Component {
     return (
         <div>
         <button onClick={this.playAudio}>
-            <span>rap</span>
+            <span>Hip Hop</span>
         </button>
         <button onClick={this.pauseAudio}>
             <span>pause</span>

@@ -8,6 +8,7 @@ import AboutMe from './component/AboutMe'
 import Button from '@mui/material/Button';
 import AudioFile from './component/audioplayer'
 import AbSoul from './component/audioplayer2'
+import Staple from './component/audioplayer3'
 
 
 const API_URL ='https://api.airtable.com/v0/app89uih6eVWpafTK/Table%201?api_key=keyZHnK73JWzkEwP6'
@@ -126,7 +127,7 @@ function App() {
           <div>
             <AudioFile/>
             <AbSoul/>
-    
+            <Staple/>
           </div>
             </Route>
 
