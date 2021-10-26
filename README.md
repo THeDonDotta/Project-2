@@ -16,6 +16,7 @@ The app allows anyone to make their own playlist of music. Also allows them to v
 - use Airtable API
 - render playlist on page
 - have Links to apple music and spotify
+- referenced coderocketfuel for audio player
 ## Post MVP
 - rate top playlist of every category
 - add ability to add links to playlist
