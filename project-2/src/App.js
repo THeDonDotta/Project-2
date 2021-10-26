@@ -47,10 +47,10 @@ function App() {
 
       }}>
         <Link to="/"> 
-        {/* <Button variant="contained">
+        <Button variant="contained">
         Home
-        </Button> */}
-        <HomeSharpIcon/>
+        </Button>
+        {/* <HomeSharpIcon/> */}
         </Link> 
         
         <Link to="/about"> 

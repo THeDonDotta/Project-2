@@ -14,7 +14,7 @@ class AudioFile extends Component {
         <h2 style={{
             color: 'white'
             }}>
-            Play some music to catch the vibe!</h2>
+            Play some music to catch a vibe!</h2>
         <button onClick={this.playAudio}>
             <span>Play Audio</span>
         </button>
