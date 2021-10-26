@@ -6,14 +6,14 @@ import ShowPlaylist from './component/showPlaylist'
 import Post from './component/Post'
 import AboutMe from './component/AboutMe'
 import Button from '@mui/material/Button';
-import HomeSharpIcon from '@mui/icons-material/HomeSharp';
 import AudioFile from './component/audioplayer'
+import AbSoul from './component/audioplayer2'
 
 
 const API_URL ='https://api.airtable.com/v0/app89uih6eVWpafTK/Table%201?api_key=keyZHnK73JWzkEwP6'
 
 function App() {
- 
+
   const [song, setSong] =useState('')
   const [artists, setArtists] = useState([]);
   
@@ -125,6 +125,7 @@ function App() {
           <Route path="/">
           <div>
             <AudioFile/>
+            <AbSoul/>
     
           </div>
             </Route>
