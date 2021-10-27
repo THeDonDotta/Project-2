@@ -10,6 +10,7 @@
 
 }
 
+
 body {
   padding-top: 30px;
   display: flex;
@@ -42,14 +43,16 @@ body {
 footer{
   display: flex;
   flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 .github{
   height: 50px;
   width: 50px;
 }
 .logo{
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
   display: flex;
   justify-content: center;
   margin: auto;
@@ -98,4 +101,23 @@ h1{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+@media (max-width:500px) {
+
+  h2{ 
+    display: none;
+  }
+  .homePics{
+    display: none;
+  }
+  .playMusic {
+    display: none;
+  }
+  .spotlight{
+    display: none;
+  }
+  .spotlightTitle{
+    display: none;
+  }
+
 }
