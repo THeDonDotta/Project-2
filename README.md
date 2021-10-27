@@ -5,10 +5,11 @@ Playlist Maker
 
 ## Project Description
 The app allows anyone to make their own playlist of music. Also allows them to view other playlist people have made in the past
+- referenced coderocketfuel for audio player
 
-## Wireframes
+## Wireframes & Component Hierarchary
 ![image](https://user-images.githubusercontent.com/90045752/138467171-8f86db30-39df-4eb8-99e8-6a7070e03caa.png)
-##Component Hierarchary 
+
 
 ## Data sample
 
@@ -16,7 +17,7 @@ The app allows anyone to make their own playlist of music. Also allows them to v
 - use Airtable API
 - render playlist on page
 - have Links to apple music and spotify
-- referenced coderocketfuel for audio player
+
 ## Post MVP
 - rate top playlist of every category
 - add ability to add links to playlist
@@ -29,11 +30,10 @@ The app allows anyone to make their own playlist of music. Also allows them to v
 
 | component | Estimated duration | actual duration |
 |---------- |:----------: |:----------: |
-| Pseudocode | 2hr |  NA |
-|Form | 6hr | NA |
-|Working with API | 4hr | NA |
-|styling css | 5hr | NA |
-|styling media queries | 1hr | NA |
+| Pseudocode | 2hr |  3hr |
+|Working with API | 4hr | 2hr |
+|styling css | 5hr | 12hr |
+|styling media queries | 1hr | 1 hr |
 |total | 18hr | NA |
 
 ## SWOT Analysis
