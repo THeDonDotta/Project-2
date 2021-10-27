@@ -12,7 +12,20 @@ The app allows anyone to make their own playlist of music. Also allows them to v
 
 
 ## Data sample
-
+base('Table 1').create([
+ {
+    "fields": {
+      "artist": "Masego",
+      "song": "Tadow"
+    }
+  },
+  {
+    "fields": {
+      "artist": "Kali Uchis",
+      "song": "fue mejor"
+    }
+  }
+  
 ## MVP
 - use Airtable API
 - render playlist on page
