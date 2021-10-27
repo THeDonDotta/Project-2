@@ -10,7 +10,7 @@ import AudioFile from './component/audioplayer'
 import AbSoul from './component/audioplayer2'
 import Staple from './component/audioplayer3'
 import Yiruma from './component/audioplayer4'
-
+import ParticleBackground from './component/darkMode'
 
 const API_URL ='https://api.airtable.com/v0/app89uih6eVWpafTK/Table%201?api_key=keyZHnK73JWzkEwP6'
 
@@ -35,7 +35,10 @@ function App() {
 
 
   return (
-    <div style={{ backgroundColor: '#6c757d'}} className="full">
+    <div 
+    style={{ background: '#6c757d'}} className="full"
+    >
+      
       <nav style={{
         display: 'flex',
         justifyContent: 'space-around',
