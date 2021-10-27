@@ -10,6 +10,7 @@ The app allows anyone to make their own playlist of music. Also allows them to v
 ## Wireframes & Component Hierarchary
 ![image](https://user-images.githubusercontent.com/90045752/138467171-8f86db30-39df-4eb8-99e8-6a7070e03caa.png)
 
+![image](blob:https://whimsical.com/e71efb3f-104e-46d7-aa87-18344753a280)
 
 ## Data sample
 
