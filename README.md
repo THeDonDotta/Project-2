@@ -12,6 +12,8 @@ The app allows anyone to make their own playlist of music. Also allows them to v
 
 
 ## Data sample
+
+```json
 base('Table 1').create([
  {
     "fields": {
@@ -38,6 +40,13 @@ base('Table 1').create([
 
 ## Project Schedule
 
+| Day | Deliverable | Status |
+|---|---|---|
+|10-22| Project Approval / Pseudocode / Get.Push | completed |
+|10-25| Structure (CSS) | incomplete | 
+|10-26| Code / CSS | incomplete | 
+|10-27| MVP | completed | 
+|10-28| post-MVP | incomplete | 
 
 ## Timeframes
 
