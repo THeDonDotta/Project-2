@@ -59,5 +59,8 @@ base('Table 1').create([
 |total | 18hr | NA |
 
 ## SWOT Analysis
-
+### Stengths: My faith in finishing the project
+### Weakness: mostly everything
+### Opportunities: Able to learn more from research
+### Threats: timeframe
 
