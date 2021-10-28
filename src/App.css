@@ -120,5 +120,8 @@ h1{
   .spotlightTitle{
     display: none;
   }
+  .logo{ 
+    display: none;
+  }
 
 }
