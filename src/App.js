@@ -10,7 +10,7 @@ import AudioFile from './component/audioplayer'
 import AbSoul from './component/audioplayer2'
 import Staple from './component/audioplayer3'
 import Yiruma from './component/audioplayer4'
-import ParticleBackground from './component/darkMode'
+
 
 const API_URL ='https://api.airtable.com/v0/app89uih6eVWpafTK/Table%201?api_key=keyZHnK73JWzkEwP6'
 
@@ -21,9 +21,6 @@ function App() {
   
   const [toggleFetch, setToggleFetch] = useState(true);
 
-  const totalBack= {
-    background: '<ParticleBackground />'
-  }
 
   useEffect(() => {
 
@@ -59,7 +56,7 @@ function App() {
         <Button variant="contained">
         Home
         </Button>
-        {/* <HomeSharpIcon/> */}
+      
         </Link> 
         
         <Link to="/about"> 
@@ -103,7 +100,6 @@ function App() {
       <body style={{paddingTop: '10px',
             paddingBottom: '10px',
             justifyContent: 'center',
-            // margin: 'auto',
             backgroundSize: 'cover', 
             background: '#48BFE3'
                     }}>

@@ -13,8 +13,6 @@ class AbSoul extends Component {
         const audioEl = document.getElementsByClassName("audio-element")[1]
         audioEl.pause()
         }
-    
-
     render() {
     return (
         <div>

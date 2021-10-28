@@ -12,8 +12,6 @@ class Staple extends Component {
         const audioEl = document.getElementsByClassName("audio-element")[2]
         audioEl.pause()
         }
-    
-
     render() {
     return (
         <div>

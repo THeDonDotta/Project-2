@@ -9,11 +9,10 @@ class AudioFile extends Component {
     audioEl.play()
     }
     pauseAudio() {
-        const audioEl = document.getElementsByClassName("audio-element")[0]
-        audioEl.pause()
+        const audioElTwo = document.getElementsByClassName("audio-element")[0]
+        audioElTwo.pause()
         }
     
-
     render() {
     return (
         <div> 

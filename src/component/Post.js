@@ -1,6 +1,5 @@
 import axios from 'axios';
-import { useEffect, useState } from 'react';
-import { Route, Link } from 'react-router-dom'
+import { useState } from 'react';
 import Button from '@mui/material/Button';
 import Card from '@mui/material/Card'
 
@@ -50,7 +49,6 @@ return(
         }}>
     <h2 className="addSong">Add a song to the playlist</h2>
         <form onSubmit={handleSubmit}
-       
         >
         <label htmlFor='artist'> Artist: </label>
                     <input type='text' 

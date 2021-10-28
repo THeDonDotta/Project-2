@@ -12,8 +12,6 @@ class Yiruma extends Component {
         const audioEl = document.getElementsByClassName("audio-element")[3]
         audioEl.pause()
         }
-    
-
     render() {
     return (
         <div>

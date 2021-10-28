@@ -2,14 +2,10 @@ import ParticleBackground from './darkMode'
 const AboutMe =() => {
 
 
-
-
-
 return (
     <div>
         <ParticleBackground />
         <img src="https://i.imgur.com/2qVSzql.png" title="source: imgur.com" className="logo" style={{marginTop:'-500px'}}/>
-
         <p style={{
             color: 'white',
             paddingLeft: '100px',

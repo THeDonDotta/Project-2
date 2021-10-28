@@ -52,7 +52,7 @@ base('Table 1').create([
 |10-25| Structure (CSS) | incomplete | 
 |10-26| Code / CSS | incomplete | 
 |10-27| MVP | completed | 
-|10-28| post-MVP | incomplete | 
+|10-28| clean up code | completed | 
 
 ## Timeframes
 
