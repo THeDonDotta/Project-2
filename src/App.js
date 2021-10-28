@@ -159,13 +159,17 @@ function App() {
           <Sultana />
           </h1>
           <div className="spotlight" style={{flexFlow: 'row'}}>
-          <p style={{color: 'white'}} className="texts">Children creepy deranged, ashes a killer a, monster mental hospital. Needles at bowels alarming. Blood ashes tearing in drowning spooky at fanatic with murderer. Worms with guts ect. Disembowel stab, chains dungeon torment fiendish, gruesome psychopath monster captive, a mutilation possession obsession at fanatic. Captive Agony deteriorated, fatal or chillin.
+          <p style={{color: 'white'}} className="texts">Tash Sultana, the gender fluid multi-instrumentalist, singer-songwriter, producer and engineer, has been dubbed one of the hardest working music exports in Australia. From a viral bedroom recording of ‘Jungle’ and street-stopping busking performances in Melbourne, to setting attendance records on non-stop, sold out global tours, Tash’s accolades rush in faster than there is time to count them.
 
-Is, grotesque Halloween exorcism. Willow trees undead wind, unknown ripped needles. Stalking wind, drenched chilling sick mental, with mutilation zombies blood.
+Tash’s second album TERRA FIRMA arrives four years after ARIA-winning #2 debut album FLOW STATE – which spawned the 2x Platinum single ‘Jungle’ and the Platinum-selling single ‘Mystik’.
 
-Or shaking with willow trees shriek. Dark mutilation rotten, Blood hair raising or, blood in eyeball. Mental hospital sliced drowning. Shriek terror shadow, darkness in tense ac, Motionless drowning Ful.
+Written and recorded over a full year, TERRA FIRMA saw Tash in full flight as they recorded, engineered, performed, arranged, and produced the album themselves.
 
-Moon. Worms with guts ect. Virus witch demonic dripping, at werewolf psycho slice flames. Haunt suicide silent, gory as demonic alarming, buried in fallen angel. Worms with guts ect. Drenched scream scared dark. Stalking wind, drenched chilling sick mental, with mutilation zombies blood, or shaking with willow trees shriek. Dark mutilation rotten, Blood hair raising or, blood in eyeball. Stalking wind, drenched chilling sick mental, with mutilation zombies blood, or shakin.</p>
+From the expansive ‘Coma’ and evocative ‘Greed’ to the intuitive ‘Beyond The Pine’, Tash adds to their trademark looped and layered jams with a dazzling patchwork of soul, funk, R&B, folk, rock, hip-hop – you name it. The result is Tash’s most ambitious triumph to date.
+
+TERRA FIRMA is recognisably Tash Sultana, but its lyricism delves deeper, its impact more nuanced. While TERRA FIRMA still cements the oft-used description of a “one person band”, the record hosts a first for Tash Sultana with four carefully chosen co-writers and close friends brought in for just a handful of songs: Matt Corby, Dann Hume, Jerome Farah and Josh Cashman.
+
+As a cohesive collection, TERRA FIRMA is Tash Sultana on full display. Each track opens a new door into the mind of Tash, whose musical integrity and confessional poetry soar on the wings of that octave-vaulting voice.</p>
 
 <a href="https://open.spotify.com/artist/6zVFRTB0Y1whWyH7ZNmywf"><img src="https://i.imgur.com/nIJVydA.jpg" title="source: imgur.com" style={{
   height: '300px',
