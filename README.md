@@ -1,4 +1,5 @@
-# Project2
+# Playlist 
+## By:creative Minds
 GA react project
 ## Project Overview
 Playlist Maker
@@ -6,6 +7,9 @@ Playlist Maker
 ## Project Description
 The app allows anyone to make their own playlist of music. Also allows them to view other playlist people have made in the past
 - referenced coderocketfuel for audio player
+
+- referenced react-particles
+https://vincentgarreau.com/particles.js/
 
 ## Wireframes & Component Hierarchary
 ![image](https://user-images.githubusercontent.com/90045752/138467171-8f86db30-39df-4eb8-99e8-6a7070e03caa.png)
@@ -56,9 +60,9 @@ base('Table 1').create([
 |---------- |:----------: |:----------: |
 | Pseudocode | 2hr |  3hr |
 |Working with API | 4hr | 2hr |
-|styling css | 5hr | 12hr |
+|styling css | 5hr | 14hr |
 |styling media queries | 1hr | 1 hr |
-|total | 18hr | NA |
+|total | 18hr | 20hr |
 
 ## SWOT Analysis
 ### Stengths: My faith in finishing the project
