@@ -42,7 +42,7 @@ base('Table 1').create([
 ## Post MVP
 - rate top playlist of every category
 - add ability to add links to playlist
-- play music on page
+- add login and export chosen playlist
 
 ## Project Schedule
 

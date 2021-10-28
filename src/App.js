@@ -10,6 +10,7 @@ import AudioFile from './component/audioplayer'
 import AbSoul from './component/audioplayer2'
 import Staple from './component/audioplayer3'
 import Yiruma from './component/audioplayer4'
+import Sultana from './component/SpotlightSong'
 
 
 const API_URL ='https://api.airtable.com/v0/app89uih6eVWpafTK/Table%201?api_key=keyZHnK73JWzkEwP6'
@@ -154,7 +155,9 @@ function App() {
 
             
           
-          <h1 className='spotlightTitle'>Artist Spotlight : Tash Sultana</h1>
+          <h1 className='spotlightTitle'>Artist Spotlight : Tash Sultana
+          <Sultana />
+          </h1>
           <div className="spotlight" style={{flexFlow: 'row'}}>
           <p style={{color: 'white'}} className="texts">Children creepy deranged, ashes a killer a, monster mental hospital. Needles at bowels alarming. Blood ashes tearing in drowning spooky at fanatic with murderer. Worms with guts ect. Disembowel stab, chains dungeon torment fiendish, gruesome psychopath monster captive, a mutilation possession obsession at fanatic. Captive Agony deteriorated, fatal or chillin.
 
