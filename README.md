@@ -12,10 +12,9 @@ The app allows anyone to make their own playlist of music. Also allows them to v
 https://vincentgarreau.com/particles.js/
 
 ## Wireframes & Component Hierarchary
-![image](https://user-images.githubusercontent.com/90045752/138467171-8f86db30-39df-4eb8-99e8-6a7070e03caa.png)
 
--Follow Link below for components
-blob:https://whimsical.com/961f9358-b484-4aa5-a99f-b0d453943a6b
+https://whimsical.com/playlist-project-Y2itBzHztrfAXMXSvCzRHj
+
 
 ## Data sample
 
