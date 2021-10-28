@@ -5,7 +5,8 @@ const AboutMe =() => {
 return (
     <div>
         <ParticleBackground />
-        <img src="https://i.imgur.com/2qVSzql.png" title="source: imgur.com" className="logo" style={{marginTop:'-500px'}}/>
+        <img src="https://i.imgur.com/2qVSzql.png" title="source: imgur.com" className="logo" style={{marginTop:'-500px',
+                borderRadius:'12px'}}/>
         <p style={{
             color: 'white',
             paddingLeft: '100px',
