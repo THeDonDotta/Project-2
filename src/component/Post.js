@@ -44,11 +44,13 @@ return(
         paddingRight: '10px',
         paddingBottom: '10px',
         fontFamily: 'Roboto Mono',
-        color: '#6930C3'
+        color: '#6930C3',
+        border: '3px solid'
 
         }}>
     <h2 className="addSong">Add a song to the playlist</h2>
         <form onSubmit={handleSubmit}
+       
         >
         <label htmlFor='artist'> Artist: </label>
                     <input type='text' 

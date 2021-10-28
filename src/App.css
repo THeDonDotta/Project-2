@@ -66,6 +66,7 @@ footer{
 .addSong{
   display: flex;
   justify-content: center;
+  
 }
 button{
   background-color: #80FFDB;

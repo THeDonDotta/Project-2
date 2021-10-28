@@ -15,7 +15,8 @@ const ShowPlaylist = ({artist, song})  => {
 return(
 
     <div>
-        <p style={{color: 'white'}}>Here are the songs added so far</p>
+        {/* <p style={{color: 'white'}}>Here are the songs added so far</p> */}
+
         <Card variant="outlined">
         <p>Artist: {artist.fields.artist}</p>
         
