@@ -7,7 +7,8 @@ Playlist Maker
 ## Project Description
 The app allows anyone to make their own playlist of music. Also allows them to view other playlist people have made in the past
 - referenced coderocketfuel for audio player
-
+- refered Tash Sultana website for description
+https://www.tashsultana.com/#about
 - referenced react-particles
 https://vincentgarreau.com/particles.js/
 
