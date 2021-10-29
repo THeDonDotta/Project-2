@@ -81,6 +81,7 @@ function App() {
       }}> CREATIVE MINDS </h1>
       <br/>
       <h1 style={{margin: 'auto',
+            
             color: '#80FFDB'
             }}>The playlist for music lovers</h1>
       
@@ -141,7 +142,8 @@ function App() {
           <Route path="/">
             <div>
             <h2 style={{
-            color: 'white'
+            color: 'white',
+            paddingLeft: '8px',
             }}>
             Play some music to catch a vibe!</h2>
             </div>
@@ -157,11 +159,12 @@ function App() {
 
             
           
-          <h1 className='spotlightTitle'>Artist Spotlight : Tash Sultana
+          <h1 className='spotlightTitle' 
+            style={{paddingLeft: '8px'}}>Artist Spotlight : Tash Sultana
           <Sultana />
           </h1>
           <div className="spotlight" style={{flexFlow: 'row'}}>
-          <p style={{color: 'white'}} className="texts">Tash Sultana, the gender fluid multi-instrumentalist, singer-songwriter, producer and engineer, has been dubbed one of the hardest working music exports in Australia. From a viral bedroom recording of ‘Jungle’ and street-stopping busking performances in Melbourne, to setting attendance records on non-stop, sold out global tours, Tash’s accolades rush in faster than there is time to count them.
+          <p style={{color: 'white', paddingLeft: '8px'}} className="texts">Tash Sultana, the gender fluid multi-instrumentalist, singer-songwriter, producer and engineer, has been dubbed one of the hardest working music exports in Australia. From a viral bedroom recording of ‘Jungle’ and street-stopping busking performances in Melbourne, to setting attendance records on non-stop, sold out global tours, Tash’s accolades rush in faster than there is time to count them.
 
 Tash’s second album TERRA FIRMA arrives four years after ARIA-winning #2 debut album FLOW STATE – which spawned the 2x Platinum single ‘Jungle’ and the Platinum-selling single ‘Mystik’.
 
