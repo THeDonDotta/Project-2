@@ -124,5 +124,10 @@ h1{
   .logo{ 
     display: none;
   }
+  footer {
+    padding-bottom: 20px;
+   
+    background-color: #7400B8
+  }
 
 }
