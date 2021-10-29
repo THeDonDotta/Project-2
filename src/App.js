@@ -48,6 +48,7 @@ function App() {
         marginTop: '-30px',
         paddingBottom: '20px',
         paddingTop: '20px',
+        width: '100vw'
         
         
         
@@ -76,6 +77,7 @@ function App() {
         fontWeight:'bold',
         color: '#80FFDB',
         margin: 'auto' ,
+
       }}> CREATIVE MINDS </h1>
       <br/>
       <h1 style={{margin: 'auto',
